@@ -1,0 +1,87 @@
+.heading{
+    display: flex;
+    padding: 10px;
+}
+h1 > span {
+    color: greenyellow;
+    font-weight: 700;
+    font-size: xx-large;
+}
+h1{
+    font-size: xx-large;
+    padding-left: 18px;
+    font-weight: 600;
+
+}
+
+.logoimg{
+    height: 66px;
+    width: 63px;
+}
+.lists > ul{
+    list-style-type: none;
+    display: flex;
+    transform: translate(16px, 15px);
+    font-size: larger;
+    font-weight: 500;
+   
+    
+}
+.lists>ul>li{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.lists>ul>li:hover{
+    color: greenyellow;
+    font-size: large;
+}
+
+.listsend{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.listsend > button{
+    margin: 20px;
+    background-color: #17ae60;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    padding: 5px;
+    font-weight: 800;
+    width: 136px;
+    height: 51px;
+    cursor: pointer;
+
+}
+
+.listsend > button:hover
+{
+    background-color:green;
+    color: black;
+    font-weight: 900;
+}
+
+.listsend > span {
+    transform: translate(-15px, 32px);
+    height: 26px;
+    width: 21px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    background-color: #17ae60;
+}
+.listsend > h3 {
+    transform: translate(-7px, 12px);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -20px;
+    
+}
+

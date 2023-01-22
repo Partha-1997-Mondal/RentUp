@@ -1,0 +1,66 @@
+.property_heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    color: #2d3964;
+    font-weight: 600;
+}
+.propertyh1{
+    font-size: 72px;
+    margin-bottom: 10px;
+
+}
+.property{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.card_price{
+    display: flex;
+}
+.card_img{
+    height: 302px;
+    padding-bottom: 40px;
+}
+.sellrent{
+    height: 34px;
+    width: 172px;
+    border: none;
+    color: orangered;
+    background-color: blanchedalmond;
+    border-radius: 28px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.real{
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+.btn_price{
+    height: 38px;
+    width: 158px;
+    border: none;
+    background-color: #17ae60;
+    border-radius: 32px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn_price:active{
+
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+
+}
+.property_details{
+    border-bottom: 1px solid gray;
+    box-shadow: 3px 3px 2px 1px rgb(0 0 255 / 20%);
+    border-right: 1px solid gray;
+
+}

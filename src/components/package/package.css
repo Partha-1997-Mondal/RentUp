@@ -1,0 +1,99 @@
+.header{
+   text-align: center;
+   color: #1d4285;
+   margin-bottom: 60px;
+}
+.header > p {
+    font-size: 21px;
+}
+.header > h1 {
+    font-size: 72px;
+    margin-bottom: -1px;
+    font-weight: 700;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.basic{
+    height: 73vh;
+    width: 23vw;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 34px;
+    padding: 10px;
+    margin-top: 44px;
+}
+.standard{
+    height: 83vh;
+    width: 23vw;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 34px;
+    padding: 10px;
+}
+.platinum{
+    height: 73vh;
+    width: 23vw;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    border-radius: 34px;
+    padding: 10px;
+    margin-top: 44px;
+}
+
+.priceheading{
+    font-size: 33px;
+    margin-bottom: -29px;
+}
+.doler{
+    color: black;
+    font-size: 91px;
+}
+
+.pricetick{
+    height: 19px;
+    margin: -5px;
+    margin-right: 13px;
+}
+.deta{
+    line-height: 55px;
+}
+.start{
+    height: 77px;
+    width: 351px;
+    border: none;
+    border-radius: 72px;
+    font-size: 28px;
+    color: #27ae60;
+    cursor: pointer;
+}
+.change{
+    height: 77px;
+    width: 351px;
+    border: none;
+    border-radius: 72px;
+    font-size: 28px;
+    background-color: #27ae60;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.start:active{
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}
+.change:active{
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}

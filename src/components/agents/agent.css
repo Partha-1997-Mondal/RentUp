@@ -1,0 +1,115 @@
+.agents{
+    height: 166px;
+    border-radius: 83px;
+    padding: 10px;
+    border: 5px solid lightgray;
+    margin-left: 109px;
+}
+.carddetails {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.card {
+    height: 435px;
+    width: 432px;
+    background: #ffffff;
+    border-radius: 6px;
+    border: 1px solid rgb(62 28 131 / 10%);
+    padding: 2rem;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    cursor: pointer;
+}
+.listingbutton{
+    background-color: #ff6922;;
+    border: none;
+    height: 44px;
+    width: 134px;
+    border-radius: 27px;
+    color: white;
+    font-weight: 600;
+    margin-left: -19px;
+}
+.location_tag{
+    height: 32px;
+    margin-left: 118px;
+}
+.agent_name{
+    margin-left: 109px;
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: -2px;
+}
+.icons_list{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    height: 32px;
+    padding: 10px;
+    margin-top: -15px;
+}
+.msg_call{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-top: 5px;
+}
+.msg{
+    background-color: #27ae60;
+    color: white;
+    font-size: 25px;
+    width: 193px;
+    border: none;
+    border-radius: 7px;
+   
+}
+.msg:active{
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}
+.call:active{
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}
+.listingbutton:active{
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}
+
+.call{
+    background-color: black;
+    width: 114px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.agents_heading{
+    font-size: 20px;
+    text-align: center;
+    color: #27AE70;
+    font-weight: 600;
+    margin-bottom: 69px;
+
+}
+.feature_agent{
+    font-size: 70px;
+    margin-bottom: -6px;
+}
+.agent{
+    background-color: #f7f9fc;
+    padding: 30px;
+}

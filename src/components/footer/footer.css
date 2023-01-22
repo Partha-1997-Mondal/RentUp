@@ -1,0 +1,74 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    font-weight: 700;
+    background-color: #27ae60;
+}
+
+.contact > button {
+    color: #27ae60;
+    height: 100px;
+    width: 288px;
+    border: none;
+    border-radius: 83px;
+    font-size: 25px;
+    margin-top: 28px;
+    cursor: pointer;
+    
+}
+.contact > button:active{
+    background: lightblue;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}
+
+.contact >div> p {
+    margin-left: 20px;
+    
+}
+.contact>div>h1 {
+    font-size: 40px;
+}
+
+
+.lowerfooter{
+    background-color: #1d2636;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footerlogo{
+    display: flex;
+}
+.footerlogo > img {
+    height: 70px;
+    width: 73px;
+}
+.text {
+    height: 44px;
+    width: 504px;
+    border: none;
+    border-radius: 10px;
+}
+.submit{
+    height: 47px;
+    width: 137px;
+    border: none;
+    background-color: #27eb60;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit:active{
+    background: #af1d1d;
+    -webkit-box-shadow: inset 0px 0px 5px #f81a1a;
+       -moz-box-shadow: inset 0px 0px 5px #eb1919;
+            box-shadow: inset 0px 0px 5px #cf1c1c;
+     outline: none;
+}

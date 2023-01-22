@@ -1,0 +1,25 @@
+.full{
+    background-color: #122947;
+    color: #fff;;
+    padding: 30px;
+    color: #fff;
+}
+.awards{
+    text-align: center;
+
+}
+.awardsicon{
+    background-color: #fff;
+    border-radius: 0 40px 0 40px;
+
+}
+.M{
+    font-size: 54px;
+    margin: -6px;
+    font-weight: 800;
+}
+.icondetails{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}

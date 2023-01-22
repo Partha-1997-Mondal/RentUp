@@ -1,0 +1,35 @@
+.location_heading{
+ 
+    padding: 20px;
+    text-align: center;
+}
+.locationhead{
+    font-size: 73px;
+    color: brown;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.locationpara{
+    font-size: 22px;
+    color: brown;
+}
+.city{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.city_img{
+    height: 475px;
+    width: 530px;
+}
+.imginside{
+    color: white;
+    background: rgb(15 28 47 / 30%);
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+    height: 31px;
+    position: absolute;
+    margin-top: 185px;
+}
